@@ -1,7 +1,6 @@
-#pragma once
 
-#ifndef GAME_H
-#define GAME_H
+#ifndef GAMECLASS_H
+#define GAMECLASS_H
 
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>

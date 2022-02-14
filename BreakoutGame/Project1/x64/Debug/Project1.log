@@ -1,0 +1,26 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(459,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (BreakoutGame.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+  Shader.cpp
+  正在生成代码...
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewAttachShader
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewCompileShader
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewCreateProgram
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewCreateShader
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewDeleteShader
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewGetProgramInfoLog
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewGetProgramiv
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewGetShaderInfoLog
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewGetShaderiv
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewGetUniformLocation
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewLinkProgram
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewShaderSource
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewUniform1f
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewUniform1i
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewUniform2f
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewUniform3f
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewUniform4f
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewUniformMatrix4fv
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp___glewUseProgram
+E:\OpenGL Depend\glew-2.2.0-win32\glew-2.2.0\lib\Release\Win32\glew32s.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+E:\OpenGL Depend\glfw-3.3.2.bin.WIN32\lib-vc2017\glfw3.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+E:\学习OpenGL\Game\Game\BreakoutGame\x64\Debug\Project1.exe : fatal error LNK1120: 19 个无法解析的外部命令
